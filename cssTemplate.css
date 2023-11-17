@@ -1,0 +1,128 @@
+body
+{
+	color: white;
+	background-color: black; 
+	background-image: url("./bg1.jpg");
+	word-wrap: break-word;
+}
+
+#headerArea
+{
+	background-color: #36c;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 10%;
+	width: 100%;
+}
+
+#headerArea a
+{
+	font-size: 30px;
+	margin-right: 15px;
+}
+
+#sideArea
+{
+	background-color: rgba(30, 30, 30, 0.9);
+	position: absolute;
+	top: 10%;
+	left: 0;
+	height: 90%;
+	width: 25%;
+	overflow-y: scroll;
+}
+
+#mainArea
+{
+	background-color: rgba(10, 10, 10, 0.8);
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	height: 90%;
+	width: 75%;
+	overflow-y: scroll;
+}
+
+.sectionArea
+{ 
+	background-color: #56c; 
+	width: 75%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	/*overflow-y: scroll;*/
+	border-radius: 7px;
+	word-wrap: break-word;
+}
+
+.sectionTitle
+{}
+
+.sectionContent
+{}
+
+.inactive
+{
+	color: grey;
+	background-color: #555;
+}
+h1
+{
+		text-align: center;
+}
+
+h2
+{
+	margin-left: 20px;
+}
+
+a
+{
+	color: #eee;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #aaa;
+}
+
+button
+{
+	color: white;
+	background-color: blue;
+}
+
+button:hover
+{
+	color: white;
+	background-color: skyblue;
+}
+
+table
+{
+	width: 100%;
+	border: solid 3px black;
+	text-align:center;
+}
+
+.flashcard
+{
+	background-color: #56c; 
+	height: 80%;
+	width: 75%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	overflow-y: scroll;
+	border-radius: 7px;	
+	text-align:center;
+}
+
+.fwBtn /*full width button*/
+{
+	background-color: #007;
+	width: 90%;
+	height: 50px;
+	border-radius: 7px;
+	
+}
