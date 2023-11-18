@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="cssTemplate.css">
+
+<style>
+</style>
+</head>
+<body>
+<div id="headerArea">
+	<a class="" href="home.html">Home</a>
+	<a class="" href="flashcards.html"> Flashcards</a>
+	<a class="" href="practice.html"> Practice</a>
+	<a class="" href="reading.html"> Reading</a>
+	<a class="" href="writing.html">Writing</a>
+	<a class="" href="grammar.html"><Grammar/a>
+	<a class="" href="games.html">Games</a>
+	<a class="" href="links.html">Links</a>
+	<a class="" href=".html"></a>
+</div> <!-- id="headerArea"-->
+
+
+<div id="sideArea">
+	<h2></h2> 
+	<button class="fwBtn" onclick="showFlashcard()">Test Card </button><br>
+	<button class="fwBtn" onclick="autoShowCards()">Auto Play</button><br>
+	<button class="fwBtn" onclick="stopAutoShowCards()">Stop Auto Play</button><br>
+	<br>
+	<button class="fwBtn" onclick="showPrevFlashcard()">Prev Card </button><br>
+	<button class="fwBtn" onclick="showNextFlashcard()">Next Card </button><br>
+	<button class="fwBtn" onclick="flipCard()">Flip Card </button><br>
+	<br>
+	<button class="fwBtn" onclick="goToCard()">Go To Card </button><br>
+	<input id="cardNumInput" type="text" size="3"></input>
+	<br>
+	<button class="fwBtn" onclick="()">Know Card </button><br>
+	<button class="fwBtn" onclick="()">Don't Know Card </button><br>
+	
+	<br><br>
+	<label>Show Kanji</label><input id="showKanjiCB" type="checkbox" value="showKanji" checked></input><br>
+	<label>Show On Yomi</label><input id="showOnYomiCB" type="checkbox"  value="showOnYomi" checked></input><br>
+	<label>Show Kun Yomi</label><input id="showKunYomiCB" type="checkbox"  value="showKunYomi" checked></input><br>
+	<label>Show English</label><input id="showEnglishCB" type="checkbox"  value="showEnglish" checked></input><br>
+	
+	<pre>
+		
+	
+	
+	</pre>
+</div> <!-- id="sideArea"-->
+
+
+<div id="mainArea" >
+	<h1>Flashcards</h1>
+	
+	<div class="flashcard" style="font-size: 35px">
+		<p id="test"></p>
+		<h1 id="kanji">国</h1>
+	
+		<table>
+			<tr><td id="onYomi">コク</td>  <td id="kunYomi">くに</td></tr>
+			<tr><td id="onRomaji">koku</td>  <td id="kunRomaji">kuni</td></tr>
+		</table>
+		
+		<p id="english">country </p>
+	</div>
+</div> <!-- id="mainArea" -->
+<script src="./main.js"></script>
+</body>
