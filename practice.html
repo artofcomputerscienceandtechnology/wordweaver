@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="cssTemplate.css">
+
+<style>
+</style>
+</head>
+<body>
+<div id="headerArea">
+	<a class="" href="home.html">Home</a>
+	<a class="" href="flashcards.html"> Flashcards</a>
+	<a class="" href="practice.html"> Practice</a>
+	<a class="" href="reading.html"> Reading</a>
+	<a class="" href="writing.html">Writing</a>
+	<a class="" href="grammar.html"><Grammar/a>
+	<a class="" href="games.html">Games</a>
+	<a class="" href="links.html">Links</a>
+	<a class="" href=".html"></a>
+</div> <!-- id="headerArea"-->
+
+
+<div id="sideArea">
+	<h2></h2> 
+	<button class="fwBtn" onclick="checkAnswer()">Check Answer </button><br>
+	<button class="fwBtn" onclick="nextQuestion()">Next Question</button><br>
+	<br>
+	<button type="button" onclick="displayRadioValue()">Submit Test</button>
+
+<br><br>
+	<label>Show Kanji</label><input id="showKanjiCB" type="checkbox" value="showKanji"></input><br>
+	<label>Show On Yomi</label><input id="showOnYomiCB" type="checkbox"  value="showOnYomi"></input><br>
+	<label>Show Kun Yomi</label><input id="showKunYomiCB" type="checkbox"  value="showKunYomi"></input><br>
+	<label>Show English</label><input id="showEnglishCB" type="checkbox"  value="showEnglish"></input><br>
+	
+	 
+	<pre>
+		
+	
+	
+	</pre>
+	
+</div> <!-- id="sideArea"-->
+
+
+<div id="mainArea" >
+	<h1>Practice</h1>
+	
+	<div class="flashcard" style="font-size: 20px"> 
+		<h1 id="q">Question # :</h1>
+		<p id="">Question: </p><br><br>
+		
+		<input type="radio" id="option1" name="q1" value="option1">
+		<label id="a1Label" for="option1">Option 1</label><br><br>
+		
+		<input type="radio" id="option2" name="q1" value="option2">
+		<label id="a2Label" for="option2">Option 2</label><br><br>
+		
+		<input type="radio" id="option3" name="q1" value="option3">
+		<label id="a3Label" for="option3">Option 3</label><br><br>
+		
+		<input type="radio" id="option4" name="q1" value="option4">
+		<label id="a4Label" for="option4">Option 4</label><br><br>
+		
+		<div id="result"></div>
+	</div>
+</div> <!-- id="mainArea" -->
+ <script src="./main.js"></script>
+ <script src="./practice.js"></script> 
+ </body>
